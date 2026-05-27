@@ -17,17 +17,19 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>280</x>
       <y>20</y>
-      <width>271</width>
-      <height>91</height>
+      <width>241</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Monotype Corsiva</family>
-      <pointsize>18</pointsize>
-      <italic>true</italic>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>28</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -37,11 +39,16 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>160</y>
-      <width>47</width>
-      <height>13</height>
+      <x>10</x>
+      <y>110</y>
+      <width>101</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Plain Text</string>
@@ -50,11 +57,16 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>250</y>
-      <width>61</width>
-      <height>16</height>
+      <x>10</x>
+      <y>260</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>CipherText</string>
@@ -63,11 +75,16 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>150</y>
-      <width>61</width>
-      <height>16</height>
+      <x>400</x>
+      <y>110</y>
+      <width>111</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>information</string>
@@ -76,11 +93,16 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>260</y>
-      <width>47</width>
-      <height>13</height>
+      <x>400</x>
+      <y>250</y>
+      <width>101</width>
+      <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Signature</string>
@@ -89,51 +111,76 @@
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>160</y>
-      <width>221</width>
-      <height>71</height>
+      <x>120</x>
+      <y>110</y>
+      <width>251</width>
+      <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_2">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>260</y>
-      <width>221</width>
-      <height>71</height>
+      <x>120</x>
+      <y>270</y>
+      <width>251</width>
+      <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_3">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>150</y>
-      <width>221</width>
-      <height>71</height>
+      <x>510</x>
+      <y>110</y>
+      <width>251</width>
+      <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_4">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>260</y>
-      <width>221</width>
-      <height>71</height>
+      <x>510</x>
+      <y>270</y>
+      <width>251</width>
+      <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>390</y>
-      <width>75</width>
-      <height>23</height>
+      <x>120</x>
+      <y>430</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Encrypt</string>
@@ -142,11 +189,16 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>390</y>
-      <width>75</width>
-      <height>23</height>
+      <x>280</x>
+      <y>430</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Decrypt</string>
@@ -155,11 +207,16 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>380</y>
-      <width>75</width>
-      <height>23</height>
+      <x>510</x>
+      <y>430</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Sign</string>
@@ -168,14 +225,19 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>380</y>
-      <width>75</width>
-      <height>23</height>
+      <x>670</x>
+      <y>430</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>Vetify</string>
+     <string>Verify</string>
     </property>
    </widget>
   </widget>
