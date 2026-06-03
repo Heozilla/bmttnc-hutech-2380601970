@@ -54,6 +54,9 @@ def handle_client(client_socket, client_address):
 
     while True:
         encrypted_message = client_socket.recv(1024)
+        if not encrypted_message:
+            break
+            
         decrypted_message = decrypt_message(aes_key, encrypted_message)
         print(f"Received from {client_address}: {decrypted_message}")
 
@@ -65,7 +68,7 @@ def handle_client(client_socket, client_address):
 
         if decrypted_message == "exit":
             break
-            
+
     clients.remove((client_socket, aes_key))
     client_socket.close()
     print(f"Connection with {client_address} closed")
